@@ -20,3 +20,14 @@ function deviceInfo() {
 	navigator.notification.alert(info);
 	
 }
+function userInfo() {
+
+	info =  'Your personal data ' + '\n' +
+			'=====' + '\n' +
+			'User Name    : '     + 'Ada'     + '\n' + 
+			'User Surname : '  + 'Galka' + '\n' + 
+			'Email: ' + 'ada.galka0704@gmail.com' + '\n' + 
+
+	navigator.notification.alert(info);
+	
+}
